@@ -612,6 +612,9 @@
 .elfinder-dialog-icon-confirm:before{
 	content:url(svg/libre-question-circle.svg)
 }
+.ui-dialog-titlebar-close:before{
+	content:url(svg/libre-close.svg)
+}
 .elfinder-dialog .ui-tabs-nav{
 	height:24px;
 	background:#eaeaea;
@@ -682,10 +685,11 @@
 .elfinder-dialog .ui-dialog-buttonpane{
 	text-align:right;
 	position:relative;
-	border:none;
-	outline:1px solid #bfbfbf;
-	border-radius:0 0 2px 2px;
-	background:#cfd1cf
+	padding:15px 15px;
+	background-color:#f5f5f5;
+	border-top:1px solid #ddd;
+	border-bottom-right-radius:3px;
+	border-bottom-left-radius:3px
 }
 .elfinder-dialog .ui-dialog-buttonset{
 	margin-right:8px
