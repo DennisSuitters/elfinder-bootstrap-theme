@@ -9,7 +9,7 @@ Simply download this repo, and copy the `theme.css` and `svg/` files/folder to t
 ````html
 <link rel="stylesheet" type="text/css" href="elfinder/css/theme-bootstrap-svg.css">
 ````
-https://github.com/summernote/summernote
+
 ### LibreICONS Version
 We recommend using [LibreICONS](https://github.com/StudioJunkyard/LibreICONS) locally within your application, and commenting out the @import
 [LibreICONS](https://github.com/StudioJunkyard/LibreICONS) also support the Icons for [Summernote](https://github.com/summernote/summernote/), so it's Font Icons aren't necessary.
