@@ -60,7 +60,7 @@
 	content:url(svg/libre-file.svg)
 }
 .elfinder-cwd-icon-directory:before{
-	content:url(svg/libre-folder.svg)
+	content:url(svg/libre-folder-open.svg)
 }
 .elfinder-droppable-active .elfinder-cwd-icon-directory:before{
 	content:url(svg/libre-folder-open.svg)
