@@ -764,27 +764,22 @@
 .elfinder .elfinder-path{
 	max-width:none;
 	font-size:0;
-	float:left;
 	margin:0 6px 5px 0;
-	border:1px solid #a6a6a6;
-	border-bottom-color:#979797;
-	border-radius:3px;
-	background:#e4e4e4
+	padding:8px 30px 8px 0;background-color:transparent
 }
-.elfinder .elfinder-path a{
+.elfinder .elfinder-path>a{
 	font-size:12px;
 	cursor:pointer;
-	display:block;
-	float:left;
-	padding:5px
 }
-.elfinder .elfinder-path a:not(:first-child){
-	border-left:1px dotted #a6a6a6
+.elfinder .elfinder-path>a+a:before{
+	padding:0 2px 0 4px;
+	color:#ccc;
+	content:'/\00a0'
 }
 .elfinder .elfinder-path a:hover,
 .elfinder .elfinder-path a:hover:focus,
 .elfinder .elfinder-path a:hover:active{
-	background:#ccc
+	color:#777;
 }
 .elfinder .elfinder-statusbar .elfinder-stat-selected{
 	float:right;
