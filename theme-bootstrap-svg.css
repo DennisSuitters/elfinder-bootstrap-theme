@@ -1,5 +1,5 @@
 /**
- * Libre Bootstrap like theme for elFinder
+ * Bootstrap like theme for elFinder SVG Edition
  * Required jquery ui "smoothness" theme
  * Style rules copied and edited from Boostrap Source
  * @author StudioJunkyard
@@ -512,6 +512,7 @@
 	margin:auto 0 auto auto
 }
 .elfinder .elfinder-cwd-wrapper-list tr td .ui-icon:before{
+	height:16px;
 	height:100%;
 	background:none;
 	display:block;
