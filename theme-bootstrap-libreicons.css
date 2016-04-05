@@ -62,53 +62,6 @@
 	display:block;
 	text-align:center
 }
-.elfinder-cwd-icon-application:before{content:'\e976'}
-.elfinder-cwd-icon-directory:before{content:'\e984'}
-.elfinder-droppable-active .elfinder-cwd-icon-directory:before{content:'\e984'}
-.elfinder-cwd-icon-x-empty:before,
-.elfinder-cwd-icon-inode:before{content:'\e978'}
-.elfinder-cwd-icon-text:before,
-.elfinder-cwd-icon-rtf:before,
-.elfinder-cwd-icon-rtfd:before{content:'\e97c'}
-.elfinder-cwd-icon-pdf:before{content:'\e97b'}
-.elfinder-cwd-icon-html:before{content:'\e978'}
-.elfinder-cwd-icon-vnd-ms-word:before{content:'\e979'}
-.elfinder-cwd-icon-vnd-ms-powerpoint:before{content:'\e979'}
-.elfinder-cwd-icon-ms-excel:before,
-.elfinder-cwd-icon-vnd-ms-excel:before,
-.elfinder-cwd-icon-vnd-ms-excel-addin-macroEnabled-12:before,
-.elfinder-cwd-icon-vnd-ms-excel-sheet-binary-macroEnabled-12:before,
-.elfinder-cwd-icon-vnd-ms-excel-sheet-macroEnabled-12:before,
-.elfinder-cwd-icon-vnd-ms-excel-template-macroEnabled-12:before{content:'\e979'}
-.elfinder-cwd-icon-audio:before{content:'\e977'}
-.elfinder-cwd-icon-video:before,
-.elfinder-cwd-icon-flash-video:before{content:'\e97d'}
-.elfinder-cwd-icon-zip:before,
-.elfinder-cwd-icon-x-zip:before,
-.elfinder-cwd-icon-x-xz:before,
-.elfinder-cwd-icon-x-7z-compressed:before,
-.elfinder-cwd-icon-x-gzip:before,
-.elfinder-cwd-icon-x-tar:before,
-.elfinder-cwd-icon-x-bzip:before,
-.elfinder-cwd-icon-x-bzip2:before,
-.elfinder-cwd-icon-x-rar:before{content:'\e976'}
-.elfinder-cwd-icon-javascript:before,
-.elfinder-cwd-icon-x-javascript:before,
-.elfinder-cwd-icon-x-perl:before,
-.elfinder-cwd-icon-x-python:before,
-.elfinder-cwd-icon-x-ruby:before,
-.elfinder-cwd-icon-x-sh:before,
-.elfinder-cwd-icon-x-shellscript:before,
-.elfinder-cwd-icon-x-c:before,
-.elfinder-cwd-icon-x-csrc:before,
-.elfinder-cwd-icon-x-chdr:before,
-.elfinder-cwd-icon-x-c--:before,
-.elfinder-cwd-icon-x-c--src:before,
-.elfinder-cwd-icon-x-c--hdr:before,
-.elfinder-cwd-icon-x-java:before,
-.elfinder-cwd-icon-x-java-source:before,
-.elfinder-cwd-icon-x-php:before,
-.elfinder-cwd-icon-xml:before{content:'\e978'}
 .elfinder .elfinder-toolbar{
 	white-space:normal;
 	padding:10px 15px;
@@ -215,8 +168,6 @@
 	overflow:hidden;
 	display:block
 }
-.elfinder-toolbar .elfinder-button-search .ui-icon-search:before{content:'\e9f5'}
-.elfinder-toolbar .elfinder-button-search .ui-icon-close:before{content:'\e951'}
 .elfinder-toolbar .elfinder-button-menu{
 	background:#fff
 }
@@ -257,42 +208,6 @@
 	text-align:center;
 	cursor:pointer
 }
-.elfinder-button-icon-back:before{content:'\e94a'}
-.elfinder-button-icon-forward:before{content:'\e94b'}
-.elfinder-button-icon-netmount:before{content:'\e9fd'}
-.elfinder-button-icon-reload:before{content:'\e9ee'}
-.elfinder-button-icon-home:before{content:'\e98f'}
-.elfinder-button-icon-up:before{content:'\e99e'}
-.elfinder-button-icon-mkdir:before{content:'\e984'}
-.elfinder-button-icon-mkfile:before{content:'\e975'}
-.elfinder-button-icon-upload:before{content:'\eaa6'}
-.elfinder-button-icon-open:before{content:'\e984'}
-.elfinder-button-icon-download:before{content:'\e969'}
-.elfinder-button-icon-getfile:before{content:'\e969'}
-.elfinder-button-icon-info:before{content:'\e973'}
-.elfinder-button-icon-quicklook:before{content:'\eaac'}
-.elfinder-button-icon-copy:before{content:'\e959'}
-.elfinder-button-icon-cut:before{content:'\e964'}
-.elfinder-button-icon-paste:before{content:'\e9da'}
-.elfinder-button-icon-view:before{content:'\e999'}
-.elfinder-button-icon-view-list:before{content:'\e99a'}
-.elfinder-button-icon-help:before{content:'\f059'}
-.elfinder-button-icon-help:before{content:'\e98b'}
-.elfinder-button-icon-duplicate:before{content:'\e959'}
-.elfinder-button-icon-rm:before{content:'\ea9c'}
-.elfinder-button-icon-edit:before{content:'\e96b'}
-.elfinder-button-icon-rename:before{content:'\ea8e'}
-.elfinder-button-icon-archive:before{content:'\e911'}
-.elfinder-button-icon-archive:after{
-	position:absolute;
-	content:'\e9e4';
-	bottom:2px;
-	right:5px;
-	height:10px
-}
-.elfinder-button-icon-resize:before{content:'\e9f0'}
-.elfinder-button-icon-extract:before{content:'\e976'}
-.elfinder-button-icon-sort:before{content:'\ea55'}
 .elfinder-button-menu{
 	background-color:#f00;
 	border:1px solid #b6b6b6;
@@ -349,7 +264,6 @@
 	text-align:center;
 	cursor:pointer
 }
-.elfinder .elfinder-navbar-expanded .elfinder-navbar-arrow:before{content:'\e93e'}
 .elfinder .elfinder-navbar-icon{
 	background-image:none!important;
 	overflow:hidden;
@@ -366,10 +280,6 @@
 	text-align:center;
 	cursor:pointer
 }
-.elfinder .elfinder-navbar-root>.elfinder-navbar-icon:before,
-.elfinder .elfinder-navbar-root.elfinder-navbar-expanded>.elfinder-navbar-icon:before{content:'\e98f'}
-.elfinder .elfinder-navbar-icon:before{content:'\e983'}
-.elfinder .elfinder-navbar-expanded>.elfinder-navbar-icon:before{content:'\e984';}
 .elfinder .ui-resizable-handle.ui-resizable-e{
 	cursor:e-resize
 }
@@ -452,8 +362,7 @@
 	display:block;
 	text-align:center
 }
-.elfinder .elfinder-cwd-wrapper-list tr.ui-state-default td .ui-icon-triangle-1-s:before{content:'\e93e'}
-.elfinder .elfinder-cwd-wrapper-list tr.ui-state-default td .ui-icon-triangle-1-n:before{content:'\ea56'}
+
 .elfinder .elfinder-cwd table{
 	padding:0
 }
@@ -538,12 +447,6 @@
 	display:block;
 	text-align:center;
 	cursor:pointer
-}
-.elfinder-dialog-icon-error:before{content:'\e973'}
-.elfinder-dialog-icon-confirm:before{content:'\e9e9'}
-.ui-dialog-titlebar-close:before{
-	font-family:LibreICONS;
-	content:'\e951'
 }
 .elfinder-dialog .ui-tabs-nav{
 	height:24px;
@@ -742,6 +645,97 @@
 	border-bottom:1px solid #e5e5e5;
 	background-color:#f5f5f5
 }
+.elfinder .ui-widget-header .ui-icon{
+	background-image:none
+}
+.elfinder-cwd-icon-application:before{content:'\e976'}
+.elfinder-cwd-icon-directory:before{content:'\e984'}
+.elfinder-droppable-active .elfinder-cwd-icon-directory:before{content:'\e984'}
+.elfinder-cwd-icon-x-empty:before,
+.elfinder-cwd-icon-inode:before{content:'\e978'}
+.elfinder-cwd-icon-text:before,
+.elfinder-cwd-icon-rtf:before,
+.elfinder-cwd-icon-rtfd:before{content:'\e97c'}
+.elfinder-cwd-icon-pdf:before{content:'\e97b'}
+.elfinder-cwd-icon-html:before{content:'\e978'}
+.elfinder-cwd-icon-vnd-ms-word:before{content:'\e979'}
+.elfinder-cwd-icon-vnd-ms-powerpoint:before{content:'\e979'}
+.elfinder-cwd-icon-ms-excel:before,
+.elfinder-cwd-icon-vnd-ms-excel:before,
+.elfinder-cwd-icon-vnd-ms-excel-addin-macroEnabled-12:before,
+.elfinder-cwd-icon-vnd-ms-excel-sheet-binary-macroEnabled-12:before,
+.elfinder-cwd-icon-vnd-ms-excel-sheet-macroEnabled-12:before,
+.elfinder-cwd-icon-vnd-ms-excel-template-macroEnabled-12:before{content:'\e979'}
+.elfinder-cwd-icon-audio:before{content:'\e977'}
+.elfinder-cwd-icon-video:before,
+.elfinder-cwd-icon-flash-video:before{content:'\e97d'}
+.elfinder-cwd-icon-zip:before,
+.elfinder-cwd-icon-x-zip:before,
+.elfinder-cwd-icon-x-xz:before,
+.elfinder-cwd-icon-x-7z-compressed:before,
+.elfinder-cwd-icon-x-gzip:before,
+.elfinder-cwd-icon-x-tar:before,
+.elfinder-cwd-icon-x-bzip:before,
+.elfinder-cwd-icon-x-bzip2:before,
+.elfinder-cwd-icon-x-rar:before{content:'\e976'}
+.elfinder-cwd-icon-javascript:before,
+.elfinder-cwd-icon-x-javascript:before,
+.elfinder-cwd-icon-x-perl:before,
+.elfinder-cwd-icon-x-python:before,
+.elfinder-cwd-icon-x-ruby:before,
+.elfinder-cwd-icon-x-sh:before,
+.elfinder-cwd-icon-x-shellscript:before,
+.elfinder-cwd-icon-x-c:before,
+.elfinder-cwd-icon-x-csrc:before,
+.elfinder-cwd-icon-x-chdr:before,
+.elfinder-cwd-icon-x-c--:before,
+.elfinder-cwd-icon-x-c--src:before,
+.elfinder-cwd-icon-x-c--hdr:before,
+.elfinder-cwd-icon-x-java:before,
+.elfinder-cwd-icon-x-java-source:before,
+.elfinder-cwd-icon-x-php:before,
+.elfinder-cwd-icon-xml:before{content:'\e978'}
+.elfinder-toolbar .elfinder-button-search .ui-icon-search:before{content:'\e9f5'}
+.elfinder-toolbar .elfinder-button-search .ui-icon-close:before{content:'\e951'}
+.elfinder-button-icon-back:before{content:'\e94a'}
+.elfinder-button-icon-forward:before{content:'\e94b'}
+.elfinder-button-icon-netmount:before{content:'\e9fd'}
+.elfinder-button-icon-reload:before{content:'\e9ee'}
+.elfinder-button-icon-home:before{content:'\e98f'}
+.elfinder-button-icon-up:before{content:'\e99e'}
+.elfinder-button-icon-mkdir:before{content:'\e984'}
+.elfinder-button-icon-mkfile:before{content:'\e975'}
+.elfinder-button-icon-upload:before{content:'\eaa6'}
+.elfinder-button-icon-open:before{content:'\e984'}
+.elfinder-button-icon-download:before{content:'\e969'}
+.elfinder-button-icon-getfile:before{content:'\e969'}
+.elfinder-button-icon-info:before{content:'\e973'}
+.elfinder-button-icon-quicklook:before{content:'\eaac'}
+.elfinder-button-icon-copy:before{content:'\e959'}
+.elfinder-button-icon-cut:before{content:'\e964'}
+.elfinder-button-icon-paste:before{content:'\e9da'}
+.elfinder-button-icon-view:before{content:'\e999'}
+.elfinder-button-icon-view-list:before{content:'\e99a'}
+.elfinder-button-icon-help:before{content:'\f059'}
+.elfinder-button-icon-help:before{content:'\e98b'}
+.elfinder-button-icon-duplicate:before{content:'\e959'}
+.elfinder-button-icon-rm:before{content:'\ea9c'}
+.elfinder-button-icon-edit:before{content:'\e96b'}
+.elfinder-button-icon-rename:before{content:'\ea8e'}
+.elfinder-button-icon-archive:before{content:'\e911'}
+.elfinder-button-icon-resize:before{content:'\e9f0'}
+.elfinder-button-icon-extract:before{content:'\e976'}
+.elfinder-button-icon-sort:before{content:'\ea55'}
+.elfinder .elfinder-navbar-expanded .elfinder-navbar-arrow:before{content:'\e93e'}
+.elfinder .elfinder-navbar-root>.elfinder-navbar-icon:before,
+.elfinder .elfinder-navbar-root.elfinder-navbar-expanded>.elfinder-navbar-icon:before{content:'\e98f'}
+.elfinder .elfinder-navbar-icon:before{content:'\e983'}
+.elfinder .elfinder-navbar-expanded>.elfinder-navbar-icon:before{content:'\e984'}
+.elfinder .elfinder-cwd-wrapper-list tr.ui-state-default td .ui-icon-triangle-1-s:before{content:'\e93e'}
+.elfinder .elfinder-cwd-wrapper-list tr.ui-state-default td .ui-icon-triangle-1-n:before{content:'\ea56'}
+.elfinder-dialog-icon-error:before{content:'\e973'}
+.elfinder-dialog-icon-confirm:before{content:'\e9e9'}
+.ui-dialog-titlebar-close:before,
 .elfinder .ui-widget-header .ui-icon .ui-icon-closethick:before{
 	font-family:LibreICONS;
 	content:'\e951'
