@@ -794,3 +794,6 @@
 	padding:5px;
 	margin:0 0 5px 6px
 }
+.elfinder .ui-widget-header .ui-icon {
+    background-image: none;
+}
