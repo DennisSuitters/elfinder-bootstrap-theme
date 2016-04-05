@@ -739,3 +739,17 @@
 .elfinder .elfinder-cwd-wrapper-list tr.ui-state-default td .ui-icon-triangle-1-n:before{content:'\f0de'}
 .elfinder-dialog-icon-error:before{content:'\f06a'}
 .elfinder-dialog-icon-confirm:before{content:'\f059'}
+.ui-dialog-titlebar-close:before,
+.dialogelfinder-drag-close:before{
+	font-family:LibreICONS;
+	content:'\f00d'
+}
+.dialogelfinder-drag-close{
+	top:0;
+	text-indent:none;
+	padding:0;
+	margin:10px 0 0 0
+}
+.dialogelfinder-drag-close:hover{
+	text-decoration:none
+}
