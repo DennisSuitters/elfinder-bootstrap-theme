@@ -762,6 +762,7 @@
 	display:block;
 	border:1px solid #b6b6b6;
 	padding:0;
+	-webkit-box-shadow:0 0 3px rgba(0,0,0,.15);
 	box-shadow:0 0 3px rgba(0,0,0,.15)
 }
 .elfinder-contextmenu .elfinder-contextmenu-item{
