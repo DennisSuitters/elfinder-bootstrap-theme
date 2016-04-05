@@ -6,6 +6,8 @@
  * @ProjectURL https://github.com/StudioJunkyard/elfinder-libre-theme
  * @Required https://github.com/StudioJunkyard/LibreICONS
 **/
+/* Comment Out or Remove this @import if your loading LibreICONS before this CSS */
+@import url('//github.com/StudioJunkyard/LibreICONS/blob/master/css/libreicons.css');
 .elfinder{
 	display:block;
 	padding:0;
@@ -445,11 +447,6 @@
 	text-align:center;
 	cursor:pointer
 }
-/* Closer */
-.ui-dialog-titlebar-close:before{
-	font-family:LibreICONS;
-	content:''
-}
 .elfinder-dialog .ui-tabs-nav{
 	height:24px;
 	background:#fff;
@@ -740,7 +737,16 @@
 .elfinder-dialog-icon-error:before{content:'\e973'}
 .elfinder-dialog-icon-confirm:before{content:'\e9e9'}
 .ui-dialog-titlebar-close:before,
-.elfinder .ui-widget-header .ui-icon .ui-icon-closethick:before{
+.dialogelfinder-drag-close:before{
 	font-family:LibreICONS;
 	content:'\e951'
+}
+.dialogelfinder-drag-close{
+	top:0;
+	text-indent:none;
+	padding:0;
+	margin:10px 0 0 0
+}
+.dialogelfinder-drag-close:hover{
+	text-decoration:none
 }
