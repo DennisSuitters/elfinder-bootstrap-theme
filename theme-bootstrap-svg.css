@@ -58,51 +58,27 @@
 	display:block;
 	text-align:center
 }
-.elfinder-cwd-icon-application:before{
-	content:url(svg/libre-file.svg)
-}
-.elfinder-cwd-icon-directory:before{
-	content:url(svg/libre-folder-open.svg)
-}
-.elfinder-droppable-active .elfinder-cwd-icon-directory:before{
-	content:url(svg/libre-folder-open.svg)
-}
+.elfinder-cwd-icon-application:before{content:url(svg/libre-file.svg)}
+.elfinder-cwd-icon-directory:before{content:url(svg/libre-folder-open.svg)}
+.elfinder-droppable-active .elfinder-cwd-icon-directory:before{content:url(svg/libre-folder-open.svg)}
 .elfinder-cwd-icon-x-empty:before,
-.elfinder-cwd-icon-inode:before{
-	content:url(svg/libre-file-code.svg)
-}
+.elfinder-cwd-icon-inode:before{content:url(svg/libre-file-code.svg)}
 .elfinder-cwd-icon-text:before,
 .elfinder-cwd-icon-rtf:before,
-.elfinder-cwd-icon-rtfd:before{
-	content:url(svg/libre-file-text.svg)
-}
-.elfinder-cwd-icon-pdf:before{
-	content:url(svg/libre-file-pdf.svg)
-}
-.elfinder-cwd-icon-html:before{
-	content:url(svg/libre-file-text.svg)
-}
-.elfinder-cwd-icon-vnd-ms-word:before{
-	content:url(svg/libre-file-text.svg)
-}
-.elfinder-cwd-icon-vnd-ms-powerpoint:before{
-	content:url(svg/libre-file-text.svg)
-}
+.elfinder-cwd-icon-rtfd:before{content:url(svg/libre-file-text.svg)}
+.elfinder-cwd-icon-pdf:before{content:url(svg/libre-file-pdf.svg)}
+.elfinder-cwd-icon-html:before{content:url(svg/libre-file-text.svg)}
+.elfinder-cwd-icon-vnd-ms-word:before{content:url(svg/libre-file-text.svg)}
+.elfinder-cwd-icon-vnd-ms-powerpoint:before{content:url(svg/libre-file-text.svg)}
 .elfinder-cwd-icon-ms-excel:before,
 .elfinder-cwd-icon-vnd-ms-excel:before,
 .elfinder-cwd-icon-vnd-ms-excel-addin-macroEnabled-12:before,
 .elfinder-cwd-icon-vnd-ms-excel-sheet-binary-macroEnabled-12:before,
 .elfinder-cwd-icon-vnd-ms-excel-sheet-macroEnabled-12:before,
-.elfinder-cwd-icon-vnd-ms-excel-template-macroEnabled-12:before{
-	content:url(svg/libre-file-text.svg)
-}
-.elfinder-cwd-icon-audio:before{
-	content:url(svg/libre-file-audio.svg)
-}
+.elfinder-cwd-icon-vnd-ms-excel-template-macroEnabled-12:before{content:url(svg/libre-file-text.svg)}
+.elfinder-cwd-icon-audio:before{content:url(svg/libre-file-audio.svg)}
 .elfinder-cwd-icon-video:before,
-.elfinder-cwd-icon-flash-video:before{
-	content:url(svg/libre-file-video.svg)
-}
+.elfinder-cwd-icon-flash-video:before{content:url(svg/libre-file-video.svg)}
 .elfinder-cwd-icon-zip:before,
 .elfinder-cwd-icon-x-zip:before,
 .elfinder-cwd-icon-x-xz:before,
@@ -111,9 +87,7 @@
 .elfinder-cwd-icon-x-tar:before,
 .elfinder-cwd-icon-x-bzip:before,
 .elfinder-cwd-icon-x-bzip2:before,
-.elfinder-cwd-icon-x-rar:before{
-	content:url(svg/libre-file-archive.svg)
-}
+.elfinder-cwd-icon-x-rar:before{content:url(svg/libre-file-archive.svg)}
 .elfinder-cwd-icon-javascript:before,
 .elfinder-cwd-icon-x-javascript:before,
 .elfinder-cwd-icon-x-perl:before,
@@ -130,9 +104,7 @@
 .elfinder-cwd-icon-x-java:before,
 .elfinder-cwd-icon-x-java-source:before,
 .elfinder-cwd-icon-x-php:before,
-.elfinder-cwd-icon-xml:before{
-	content:url(svg/libre-file-text.svg)
-}
+.elfinder-cwd-icon-xml:before{content:url(svg/libre-file-text.svg)}
 .elfinder .elfinder-toolbar{
 	white-space:normal;
 	padding:10px 15px;
@@ -238,12 +210,8 @@
 	overflow:hidden;
 	display:block
 }
-.elfinder-toolbar .elfinder-button-search .ui-icon-search:before{
-	content:url(svg/libre-search.svg)
-}
-.elfinder-toolbar .elfinder-button-search .ui-icon-close:before{
-	content:url(svg/libre-close.svg)
-}
+.elfinder-toolbar .elfinder-button-search .ui-icon-search:before{content:url(svg/libre-search.svg)}
+.elfinder-toolbar .elfinder-button-search .ui-icon-close:before{content:url(svg/libre-close.svg)}
 .elfinder-toolbar .elfinder-button-menu{
 	background:#fff
 }
@@ -283,81 +251,31 @@
 	text-align:center;
 	cursor:pointer
 }
-.elfinder-button-icon-back:before{
-	content:url(svg/libre-chevron-left.svg)
-}
-.elfinder-button-icon-forward:before{
-	content:url(svg/libre-chevron-right.svg)
-}
-.elfinder-button-icon-netmount:before{
-	content:url(svg/libre-server.svg)
-}
-.elfinder-button-icon-reload:before{
-	content:url(svg/libre-refresh.svg)
-}
-.elfinder-button-icon-home:before{
-	content:url(svg/libre-home.svg)
-}
-.elfinder-button-icon-up:before{
-	content:url(svg/libre-level-up.svg)
-}
-.elfinder-button-icon-mkdir:before{
-	content:url(svg/libre-folder.svg)
-}
-.elfinder-button-icon-mkfile:before{
-	content:url(svg/libre-file.svg)
-}
-.elfinder-button-icon-upload:before{
-	content:url(svg/libre-upload.svg)
-}
-.elfinder-button-icon-open:before{
-	content:url(svg/libre-folder-open.svg)
-}
-.elfinder-button-icon-download:before{
-	content:url(svg/libre-download.svg)
-}
-.elfinder-button-icon-getfile:before{
-	content:url(svg/libre-download.svg)
-}
-.elfinder-button-icon-info:before{
-	content:url(svg/libre-info.svg)
-}
-.elfinder-button-icon-quicklook:before{
-	content:url(svg/libre-view.svg)
-}
-.elfinder-button-icon-copy:before{
-	content:url(svg/libre-copy.svg)
-}
-.elfinder-button-icon-cut:before{
-	content:url(svg/libre-cut.svg)
-}
-.elfinder-button-icon-paste:before{
-	content:url(svg/libre-paste.svg)
-}
-.elfinder-button-icon-view:before{
-	content:url(svg/libre-th.svg)
-}
-.elfinder-button-icon-view-list:before{
-	content:url(svg/libre-th-list.svg)
-}
-.elfinder-button-icon-help:before{
-	content:url(svg/libre-help.svg)
-}
-.elfinder-button-icon-duplicate:before{
-	content:url(svg/libre-copy.svg)
-}
-.elfinder-button-icon-rm:before{
-	content:url(svg/libre-trash.svg)
-}
-.elfinder-button-icon-edit:before{
-	content:url(svg/libre-edit.svg)
-}
-.elfinder-button-icon-rename:before{
-	content:url(svg/libre-text-cursor.svg)
-}
-.elfinder-button-icon-archive:before{
-	content:url(svg/libre-archive.svg)
-}
+.elfinder-button-icon-back:before{content:url(svg/libre-chevron-left.svg)}
+.elfinder-button-icon-forward:before{content:url(svg/libre-chevron-right.svg)}
+.elfinder-button-icon-netmount:before{content:url(svg/libre-server.svg)}
+.elfinder-button-icon-reload:before{content:url(svg/libre-refresh.svg)}
+.elfinder-button-icon-home:before{content:url(svg/libre-home.svg)}
+.elfinder-button-icon-up:before{content:url(svg/libre-level-up.svg)}
+.elfinder-button-icon-mkdir:before{content:url(svg/libre-folder.svg)}
+.elfinder-button-icon-mkfile:before{content:url(svg/libre-file.svg)}
+.elfinder-button-icon-upload:before{content:url(svg/libre-upload.svg)}
+.elfinder-button-icon-open:before{content:url(svg/libre-folder-open.svg)}
+.elfinder-button-icon-download:before{content:url(svg/libre-download.svg)}
+.elfinder-button-icon-getfile:before{content:url(svg/libre-download.svg)}
+.elfinder-button-icon-info:before{content:url(svg/libre-info.svg)}
+.elfinder-button-icon-quicklook:before{content:url(svg/libre-view.svg)}
+.elfinder-button-icon-copy:before{content:url(svg/libre-copy.svg)}
+.elfinder-button-icon-cut:before{content:url(svg/libre-cut.svg)}
+.elfinder-button-icon-paste:before{content:url(svg/libre-paste.svg)}
+.elfinder-button-icon-view:before{content:url(svg/libre-th.svg)}
+.elfinder-button-icon-view-list:before{content:url(svg/libre-th-list.svg)}
+.elfinder-button-icon-help:before{content:url(svg/libre-help.svg)}
+.elfinder-button-icon-duplicate:before{content:url(svg/libre-copy.svg)}
+.elfinder-button-icon-rm:before{content:url(svg/libre-trash.svg)}
+.elfinder-button-icon-edit:before{content:url(svg/libre-edit.svg)}
+.elfinder-button-icon-rename:before{content:url(svg/libre-text-cursor.svg)}
+.elfinder-button-icon-archive:before{content:url(svg/libre-archive.svg)}
 .elfinder-button-icon-archive:after{
 	position:absolute;
 	content:url(svg/libre-add.svg);
@@ -365,15 +283,9 @@
 	right:5px;
 	height:10px
 }
-.elfinder-button-icon-resize:before{
-	content:url(svg/libre-resize-full.svg)
-}
-.elfinder-button-icon-extract:before{
-	content:url(svg/libre-file-archive.svg)
-}
-.elfinder-button-icon-sort:before{
-	content:url(svg/libre-sort.svg)
-}
+.elfinder-button-icon-resize:before{content:url(svg/libre-resize-full.svg)}
+.elfinder-button-icon-extract:before{content:url(svg/libre-file-archive.svg)}
+.elfinder-button-icon-sort:before{content:url(svg/libre-sort.svg)}
 .elfinder-button-menu{
 	background-color:#f00;
 	border:1px solid #b6b6b6;
@@ -390,14 +302,10 @@
 .elfinder-button-menu-item-selected,
 .elfinder-button-menu-item.ui-state-hover{
 	background:#337ab7 none;
-    color:#fff
+	color:#fff
 }
-.elfinder-button-menu-item-selected.elfinder-menu-item-sort-asc .elfinder-menu-item-sort-dir:before{
-	content:url(svg/libre-sort-asc.svg)
-}
-.elfinder-button-menu-item-selected.elfinder-menu-item-sort-desc .elfinder-menu-item-sort-dir:before{
-	content:url(svg/libre-sort-desc.svg)
-}
+.elfinder-button-menu-item-selected.elfinder-menu-item-sort-asc .elfinder-menu-item-sort-dir:before{content:url(svg/libre-sort-asc.svg)}
+.elfinder-button-menu-item-selected.elfinder-menu-item-sort-desc .elfinder-menu-item-sort-dir:before{content:url(svg/libre-sort-desc.svg)}
 .elfinder .elfinder-navbar{
 	background:#fff
 }
@@ -432,9 +340,7 @@
 	text-align:center;
 	cursor:pointer
 }
-.elfinder .elfinder-navbar-expanded .elfinder-navbar-arrow:before{
-	content:url(svg/libre-caret-down.svg)
-}
+.elfinder .elfinder-navbar-expanded .elfinder-navbar-arrow:before{content:url(svg/libre-caret-down.svg)}
 .elfinder .elfinder-navbar-icon{
 	background-image:none!important;
 	overflow:hidden;
@@ -451,15 +357,9 @@
 	cursor:pointer
 }
 .elfinder .elfinder-navbar-root > .elfinder-navbar-icon:before,
-.elfinder .elfinder-navbar-root.elfinder-navbar-expanded > .elfinder-navbar-icon:before{
-	content:url(svg/libre-home.svg)
-}
-.elfinder .elfinder-navbar-icon:before{
-	content:url(svg/libre-folder.svg)
-}
-.elfinder .elfinder-navbar-expanded > .elfinder-navbar-icon:before{
-	content:url(svg/libre-folder-open.svg)
-}
+.elfinder .elfinder-navbar-root.elfinder-navbar-expanded > .elfinder-navbar-icon:before{content:url(svg/libre-home.svg)}
+.elfinder .elfinder-navbar-icon:before{content:url(svg/libre-folder.svg)}
+.elfinder .elfinder-navbar-expanded > .elfinder-navbar-icon:before{content:url(svg/libre-folder-open.svg)}
 .elfinder .ui-resizable-handle.ui-resizable-e{
 	cursor:e-resize
 }
@@ -541,12 +441,8 @@
 	display:block;
 	text-align:center
 }
-.elfinder .elfinder-cwd-wrapper-list tr.ui-state-default td .ui-icon-triangle-1-s:before{
-	content: url(svg/libre-caret-down.svg)
-}
-.elfinder .elfinder-cwd-wrapper-list tr.ui-state-default td .ui-icon-triangle-1-n:before{
-	content: url(svg/libre-sort-asc.svg)
-}
+.elfinder .elfinder-cwd-wrapper-list tr.ui-state-default td .ui-icon-triangle-1-s:before{content:url(svg/libre-caret-down.svg)}
+.elfinder .elfinder-cwd-wrapper-list tr.ui-state-default td .ui-icon-triangle-1-n:before{content:url(svg/libre-sort-asc.svg)}
 .elfinder .elfinder-cwd table{
 	padding:0
 }
@@ -595,7 +491,7 @@
 	border:1px solid #b2b2b2;
 	border-bottom-color:#999;
 	border-radius:3px;
-    -webkit-box-shadow:0 0 3px rgba(0,0,0,.15);
+	-webkit-box-shadow:0 0 3px rgba(0,0,0,.15);
 	box-shadow:0 0 3px rgba(0,0,0,.15)
 }
 .elfinder-dialog .ui-dialog-content,
@@ -631,15 +527,9 @@
 	text-align:center;
 	cursor:pointer
 }
-.elfinder-dialog-icon-error:before{
-	content:url(svg/libre-exclamation-circle.svg)
-}
-.elfinder-dialog-icon-confirm:before{
-	content:url(svg/libre-question-circle.svg)
-}
-.ui-dialog-titlebar-close:before{
-	content:url(svg/libre-close.svg)
-}
+.elfinder-dialog-icon-error:before{content:url(svg/libre-exclamation-circle.svg)}
+.elfinder-dialog-icon-confirm:before{content:url(svg/libre-question-circle.svg)}
+.ui-dialog-titlebar-close:before{content:url(svg/libre-close.svg)}
 .elfinder-dialog .ui-tabs-nav{
 	height:24px;
 	background:#eaeaea;
@@ -749,7 +639,7 @@
 	display:block;
 	border:1px solid #b6b6b6;
 	padding:0;
-    -webkit-box-shadow:0 0 3px rgba(0,0,0,.15);
+	-webkit-box-shadow:0 0 3px rgba(0,0,0,.15);
 	box-shadow:0 0 3px rgba(0,0,0,.15)
 }
 .elfinder-contextmenu .elfinder-contextmenu-item{
@@ -792,7 +682,7 @@
 	font-size:0;
 	margin:0 6px 5px 0;
 	padding:8px 30px 8px 0;
-    background-color:transparent
+	background-color:transparent
 }
 .elfinder .elfinder-path>a{
 	font-size:12px;
