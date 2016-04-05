@@ -276,13 +276,6 @@
 .elfinder-button-icon-edit:before{content:url(svg/libre-edit.svg)}
 .elfinder-button-icon-rename:before{content:url(svg/libre-text-cursor.svg)}
 .elfinder-button-icon-archive:before{content:url(svg/libre-archive.svg)}
-.elfinder-button-icon-archive:after{
-	position:absolute;
-	content:url(svg/libre-add.svg);
-	bottom:2px;
-	right:5px;
-	height:10px
-}
 .elfinder-button-icon-resize:before{content:url(svg/libre-resize-full.svg)}
 .elfinder-button-icon-extract:before{content:url(svg/libre-file-archive.svg)}
 .elfinder-button-icon-sort:before{content:url(svg/libre-sort.svg)}
@@ -314,14 +307,15 @@
 	margin:0 0 3px 0;
 	display:block;
 	overflow:hidden;
-	cursor:pointer
+	cursor:pointer;
+    border:1px solid transparent
 }
 .elfinder .elfinder-navbar-dir.ui-state-active,
 .elfinder .elfinder-navbar-dir:hover{
 	border-radius:3px;
 	background:#e4e4e4;
 	color:#000;
-	border-color:transparent
+	border:1px solid #e4e4e4
 }
 .elfinder .elfinder-navbar-arrow{
 	background-image:none!important;
@@ -532,40 +526,50 @@
 .ui-dialog-titlebar-close:before{content:url(svg/libre-close.svg)}
 .elfinder-dialog .ui-tabs-nav{
 	height:24px;
-	background:#eaeaea;
+	background:#fff;
 	border:0;
-	border-bottom:1px solid #999;
+	border-bottom:1px solid #888;
 	border-radius:0
 }
-.elfinder-dialog .ui-tabs .ui-tabs-nav li a{
-	display:block;
-	padding:3px;
-	border:none;
-	outline:none
+.elfinder-dialog .ui-tabs-nav>li{
+    float:left
+}
+.elfinder-dialog .ui-tabs-nav>li>a{
+	margin-right:2px;
+    border:1px solid #ddd;
+    border-bottom-color:#888;
+    border-radius:4px 4px 0 0
+}
+.elfinder-dialog .ui-tabs-nav>li>a:hover{
+    background:#d4d4d4;
+    border-color:#eee #eee #888
 }
 .elfinder-dialog .ui-tabs-nav .ui-state-default{
-	height:16px;
-	padding:3px;
+	height:24px;
+	padding:5px;
 	margin-right:3px;
 	display:inline-block;
 	cursor:pointer;
 	line-height:16px;
 	outline:none;
-	color:#595959;
+	color:#ccc;
 	border:1px solid #bfbfbf;
 	border-radius:3px 3px 0 0;
-	background:#d4d4d4
+	background:#fff
 }
 .elfinder-dialog .ui-tabs-nav .ui-tabs-selected{
-	background:#fff;
-	color:#383838;
-	border-bottom-color:#fff;
-	cursor:default;
-	filter:none;
-	padding-bottom:4px!important
+    color:#000;
+    cursor:default;
+    background-color:#fff;
+    border:1px solid #888;
+    border-bottom-color:transparent
 }
 .elfinder-dialog .ui-tabs-nav li:active{
-	background:#ededed
+    color:#000;
+    cursor:default;
+    background-color:#fff;
+    border:1px solid #888;
+    border-bottom-color:transparent
 }
 .elfinder-dialog .elfinder-cwd-icon{
 	background-image:none!important;
@@ -658,7 +662,7 @@
 	opacity:.70;
 	filter:alpha(opacity=70);
 	height:100%;
-	line-height:32px;
+	line-height:24px;
 	width:14px;
 	text-align:center
 }
@@ -712,4 +716,7 @@
 }
 .elfinder .ui-widget-header .ui-icon{
     background-image:none
+}
+.elfinder .ui-widget-header .ui-icon .ui-icon-closethick:before{
+	content:url(svg/libre-close.svg)
 }
