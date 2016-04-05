@@ -6,8 +6,6 @@
  * @ProjectURL https://github.com/StudioJunkyard/elfinder-libre-theme
  * @Required https://github.com/StudioJunkyard/LibreICONS
 **/
-/* Comment Out or Remove this @import if your loading LibreICONS before this CSS */
-@import url('//github.com/StudioJunkyard/LibreICONS/blob/master/css/libreicons.css');
 .elfinder{
 	display:block;
 	padding:0;
@@ -27,7 +25,7 @@
 	border:0;
 	margin:0;
 	padding:0;
-	box-shadow:0;
+	box-shadow:0
 }
 .elfinder .ui-icon-gripsmall-diagonal-se,
 .elfinder-dialog .ui-icon-gripsmall-diagonal-se{
@@ -44,6 +42,7 @@
 	vertical-align:bottom;
 	margin-top:6px;
 	margin-bottom:2px;
+	-webkit-box-shadow:0 1px 0 rgba(255,255,255,.3);
 	box-shadow:0 1px 0 rgba(255,255,255,.3);
 	cursor:se-resize
 }
@@ -226,8 +225,6 @@
 	background:#337ab7 none;
 	color:#fff
 }
-.elfinder-button-menu-item-selected.elfinder-menu-item-sort-asc .elfinder-menu-item-sort-dir:before{content:'\ea56'}
-.elfinder-button-menu-item-selected.elfinder-menu-item-sort-desc .elfinder-menu-item-sort-dir:before{content:'\ea57'}
 .elfinder .elfinder-navbar{
 	background:#fff
 }
@@ -448,6 +445,11 @@
 	text-align:center;
 	cursor:pointer
 }
+/* Closer */
+.ui-dialog-titlebar-close:before{
+	font-family:LibreICONS;
+	content:''
+}
 .elfinder-dialog .ui-tabs-nav{
 	height:24px;
 	background:#fff;
@@ -648,6 +650,8 @@
 .elfinder .ui-widget-header .ui-icon{
 	background-image:none
 }
+.elfinder-button-menu-item-selected.elfinder-menu-item-sort-asc .elfinder-menu-item-sort-dir:before{content:'\ea56'}
+.elfinder-button-menu-item-selected.elfinder-menu-item-sort-desc .elfinder-menu-item-sort-dir:before{content:'\ea57'}
 .elfinder-cwd-icon-application:before{content:'\e976'}
 .elfinder-cwd-icon-directory:before{content:'\e984'}
 .elfinder-droppable-active .elfinder-cwd-icon-directory:before{content:'\e984'}
