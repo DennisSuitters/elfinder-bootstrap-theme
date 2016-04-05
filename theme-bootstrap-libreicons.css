@@ -54,13 +54,13 @@
 	font-size:12px
 }
 .elfinder-cwd-icon{
-	overflow:hidden;
+	overflow:hidden
 }
 .elfinder-cwd-icon:before{
 	font-family:LibreICONS;
 	background:none;
 	display:block;
-	text-align:center;
+	text-align:center
 }
 .elfinder-cwd-icon-application:before{
 	content:'\e976'
@@ -78,10 +78,10 @@
 .elfinder-cwd-icon-text:before,
 .elfinder-cwd-icon-rtf:before,
 .elfinder-cwd-icon-rtfd:before{
-content:'\e97c'
+	content:'\e97c'
 }
 .elfinder-cwd-icon-pdf:before{
- content:'\e97b'
+	content:'\e97b'
 }
 .elfinder-cwd-icon-html:before{
 	content:'\e978'
@@ -176,8 +176,7 @@ content:'\e97c'
 	cursor:default;
 	float:left;
 	border:none;
-	border-radius:0;
-	background:none
+	border-radius:0
 }
 .elfinder .elfinder-buttonset .elfinder-button:hover,
 .elfinder .elfinder-buttonset .elfinder-button:focus,
@@ -197,13 +196,14 @@ content:'\e97c'
 	box-sizing:border-box
 }
 .elfinder-toolbar .elfinder-button-search .elfinder-button-menu{
+	background:#fff;
 	padding:4px 0 0 4px
 }
 .elfinder-toolbar .elfinder-button-search .elfinder-button-menu .ui-button-text{
 	cursor:pointer
 }
 .elfinder-toolbar .elfinder-button-search .elfinder-button-menu .ui-state-default{
-	background:#eaeaea none
+	background:#eaeaea
 }
 .elfinder-toolbar .elfinder-button-search .elfinder-button-menu .ui-state-hover{
 	background:#d0ebf4 none;
@@ -249,6 +249,26 @@ content:'\e97c'
 .elfinder-toolbar .elfinder-button-search .ui-icon-close:before{
 	content:'\e951'
 }
+.elfinder-toolbar .elfinder-button-menu{
+	background:#fff
+}
+.elfinder-toolbar .elfinder-button-menu .buttonset{
+	margin-top:5px
+}
+.elfinder-toolbar .elfinder-button-menu .buttonset input{
+	width:12px;
+	height:12px;
+	display:inline-block;
+	margin:2px 2px 0 10px
+}
+.elfinder-toolbar .elfinder-button-menu .buttonset label{
+	display:inline;
+	padding:0 0 4px 5px
+}
+.elfinder-toolbar .elfinder-button-menu .buttonset label:after{
+	content:'\a';
+	white-space:pre
+}
 .elfinder-button-icon,
 .elfinder-menu-item-sort-dir{
 	background:none;
@@ -282,70 +302,70 @@ content:'\e97c'
 	content:'\e9ee'
 }
 .elfinder-button-icon-home:before{
- content:'\e98f'
+	content:'\e98f'
 }
 .elfinder-button-icon-up:before{
- content:'\e99e'
+	content:'\e99e'
 }
 .elfinder-button-icon-mkdir:before{
- content:'\e984'
+	content:'\e984'
 }
 .elfinder-button-icon-mkfile:before{
- content:'\e975'
+	content:'\e975'
 }
 .elfinder-button-icon-upload:before{
- content:'\eaa6'
+	content:'\eaa6'
 }
 .elfinder-button-icon-open:before{
- content:'\e984'
+	content:'\e984'
 }
 .elfinder-button-icon-download:before{
- content:'\e969'
+	content:'\e969'
 }
 .elfinder-button-icon-getfile:before{
- content:'\e969'
+	content:'\e969'
 }
 .elfinder-button-icon-info:before{
- content:'\e973'
+	content:'\e973'
 }
 .elfinder-button-icon-quicklook:before{
- content:'\eaac'
+	content:'\eaac'
 }
 .elfinder-button-icon-copy:before{
- content:'\e959'
+	content:'\e959'
 }
 .elfinder-button-icon-cut:before{
- content:'\e964'
+	content:'\e964'
 }
 .elfinder-button-icon-paste:before{
- content:'\e9da'
+	content:'\e9da'
 }
 .elfinder-button-icon-view:before{
- content:'\e999'
+	content:'\e999'
 }
 .elfinder-button-icon-view-list:before{
- content:'\e99a'
+	content:'\e99a'
 }
 .elfinder-button-icon-help:before{
- content:'\f059'
+	content:'\f059'
 }
 .elfinder-button-icon-help:before{
- content:'\e98b'
+	content:'\e98b'
 }
 .elfinder-button-icon-duplicate:before{
- content:'\e959'
+	content:'\e959'
 }
 .elfinder-button-icon-rm:before{
- content:'\ea9c'
+	content:'\ea9c'
 }
 .elfinder-button-icon-edit:before{
- content:'\e96b'
+	content:'\e96b'
 }
 .elfinder-button-icon-rename:before{
- content:'\ea8e'
+	content:'\ea8e'
 }
 .elfinder-button-icon-archive:before{
- content:'\e911'
+	content:'\e911'
 }
 .elfinder-button-icon-archive:after{
 	position:absolute;
@@ -378,13 +398,14 @@ content:'\e97c'
 }
 .elfinder-button-menu-item-selected,
 .elfinder-button-menu-item.ui-state-hover{
-	background:#f2f2f2 none
+	background:#337ab7 none;
+	color:#fff
 }
 .elfinder-button-menu-item-selected.elfinder-menu-item-sort-asc .elfinder-menu-item-sort-dir:before{
- content:'\ea56'
+	content:'\ea56'
 }
 .elfinder-button-menu-item-selected.elfinder-menu-item-sort-desc .elfinder-menu-item-sort-dir:before{
- content:'\ea57'
+	content:'\ea57'
 }
 .elfinder .elfinder-navbar{
 	background:#fff
@@ -442,13 +463,13 @@ content:'\e97c'
 }
 .elfinder .elfinder-navbar-root>.elfinder-navbar-icon:before,
 .elfinder .elfinder-navbar-root.elfinder-navbar-expanded>.elfinder-navbar-icon:before{
- content:'\e98f'
+	content:'\e98f'
 }
 .elfinder .elfinder-navbar-icon:before{
- content:'\e983'
+	content:'\e983'
 }
 .elfinder .elfinder-navbar-expanded>.elfinder-navbar-icon:before{
- content:'\e984';
+	content:'\e984';
 }
 .elfinder .ui-resizable-handle.ui-resizable-e{
 	cursor:e-resize
@@ -484,13 +505,13 @@ content:'\e97c'
 .elfinder .elfinder-cwd-view-icons .elfinder-cwd-file:hover *,
 .elfinder .elfinder-cwd-view-icons .elfinder-cwd-file:active *,
 .elfinder .elfinder-cwd-view-icons .elfinder-cwd-file.ui-selected *{
-	color:#666
+	color:#337ab7
 }
 .elfinder .elfinder-cwd-view-icons .elfinder-cwd-file.ui-selected:hover{
 	background-color:#f4f4f4
 }
 .elfinder .elfinder-cwd-view-icons .elfinder-cwd-file.ui-selected:hover *{
-	color:#b7b7b7
+	color:#337ab7
 }
 .elfinder .elfinder-cwd table thead tr{
 	background:none;
@@ -533,10 +554,10 @@ content:'\e97c'
 	text-align:center
 }
 .elfinder .elfinder-cwd-wrapper-list tr.ui-state-default td .ui-icon-triangle-1-s:before{
- content:'\e93e'
+	content:'\e93e'
 }
 .elfinder .elfinder-cwd-wrapper-list tr.ui-state-default td .ui-icon-triangle-1-n:before{
- content:'\ea56'
+	content:'\ea56'
 }
 .elfinder .elfinder-cwd table{
 	padding:0
@@ -586,6 +607,7 @@ content:'\e97c'
 	border:1px solid #b2b2b2;
 	border-bottom-color:#999;
 	border-radius:3px;
+	-webkit-box-shadow:0 0 3px rgba(0,0,0,.15)
 	box-shadow:0 0 3px rgba(0,0,0,.15)
 }
 .elfinder-dialog .ui-dialog-content,
@@ -623,10 +645,10 @@ content:'\e97c'
 	cursor:pointer
 }
 .elfinder-dialog-icon-error:before{
- content:'\e973'
+	content:'\e973'
 }
 .elfinder-dialog-icon-confirm:before{
- content:'\e9e9'
+	content:'\e9e9'
 }
 .ui-dialog-titlebar-close:before{
 	font-family:LibreICONS;
