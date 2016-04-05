@@ -62,51 +62,27 @@
 	display:block;
 	text-align:center
 }
-.elfinder-cwd-icon-application:before{
-	content:'\e975'
-}
-.elfinder-cwd-icon-directory:before{
-	content:'\f07c'
-}
-.elfinder-droppable-active .elfinder-cwd-icon-directory:before{
-	content:'\f07c'
-}
+.elfinder-cwd-icon-application:before{content:'\e975'}
+.elfinder-cwd-icon-directory:before{content:'\f07c'}
+.elfinder-droppable-active .elfinder-cwd-icon-directory:before{content:'\f07c'}
 .elfinder-cwd-icon-x-empty:before,
-.elfinder-cwd-icon-inode:before{
-	content:'\f1c9'
-}
+.elfinder-cwd-icon-inode:before{content:'\f1c9'}
 .elfinder-cwd-icon-text:before,
 .elfinder-cwd-icon-rtf:before,
-.elfinder-cwd-icon-rtfd:before{
-	content:'\f0f6'
-}
-.elfinder-cwd-icon-pdf:before{
-  content:'\f1c1'
-}
-.elfinder-cwd-icon-html:before{
-	content:'\f0ac'
-}
-.elfinder-cwd-icon-vnd-ms-word:before{
-	content:'\f1c2'
-}
-.elfinder-cwd-icon-vnd-ms-powerpoint:before{
-	content:'\f1c4'
-}
+.elfinder-cwd-icon-rtfd:before{content:'\f0f6'}
+.elfinder-cwd-icon-pdf:before{content:'\f1c1'}
+.elfinder-cwd-icon-html:before{content:'\f0ac'}
+.elfinder-cwd-icon-vnd-ms-word:before{content:'\f1c2'}
+.elfinder-cwd-icon-vnd-ms-powerpoint:before{content:'\f1c4'}
 .elfinder-cwd-icon-ms-excel:before,
 .elfinder-cwd-icon-vnd-ms-excel:before,
 .elfinder-cwd-icon-vnd-ms-excel-addin-macroEnabled-12:before,
 .elfinder-cwd-icon-vnd-ms-excel-sheet-binary-macroEnabled-12:before,
 .elfinder-cwd-icon-vnd-ms-excel-sheet-macroEnabled-12:before,
-.elfinder-cwd-icon-vnd-ms-excel-template-macroEnabled-12:before{
-	content:'\f1c3'
-}
-.elfinder-cwd-icon-audio:before{
-	content:'\f1c7'
-}
+.elfinder-cwd-icon-vnd-ms-excel-template-macroEnabled-12:before{content:'\f1c3'}
+.elfinder-cwd-icon-audio:before{content:'\f1c7'}
 .elfinder-cwd-icon-video:before,
-.elfinder-cwd-icon-flash-video:before{
-	content:'\f1c8'
-}
+.elfinder-cwd-icon-flash-video:before{content:'\f1c8'}
 .elfinder-cwd-icon-zip:before,
 .elfinder-cwd-icon-x-zip:before,
 .elfinder-cwd-icon-x-xz:before,
@@ -115,9 +91,7 @@
 .elfinder-cwd-icon-x-tar:before,
 .elfinder-cwd-icon-x-bzip:before,
 .elfinder-cwd-icon-x-bzip2:before,
-.elfinder-cwd-icon-x-rar:before{
-	content:'\f1c6'
-}
+.elfinder-cwd-icon-x-rar:before{content:'\f1c6'}
 .elfinder-cwd-icon-javascript:before,
 .elfinder-cwd-icon-x-javascript:before,
 .elfinder-cwd-icon-x-perl:before,
@@ -134,9 +108,7 @@
 .elfinder-cwd-icon-x-java:before,
 .elfinder-cwd-icon-x-java-source:before,
 .elfinder-cwd-icon-x-php:before,
-.elfinder-cwd-icon-xml:before{
-	content:'\f1c9'
-}
+.elfinder-cwd-icon-xml:before{content:'\f1c9'}
 .elfinder .elfinder-toolbar{
 	white-space:normal;
 	padding:10px 15px;
@@ -196,7 +168,7 @@
 	box-sizing:border-box
 }
 .elfinder-toolbar .elfinder-button-search .elfinder-button-menu{
-    background:#fff;
+	background:#fff;
 	padding:4px 0 0 4px
 }
 .elfinder-toolbar .elfinder-button-search .elfinder-button-menu .ui-button-text{
@@ -243,12 +215,8 @@
 	overflow:hidden;
 	display:block
 }
-.elfinder-toolbar .elfinder-button-search .ui-icon-search:before{
-	content:'\f002'
-}
-.elfinder-toolbar .elfinder-button-search .ui-icon-close:before{
-	content:'\f00d'
-}
+.elfinder-toolbar .elfinder-button-search .ui-icon-search:before{content:'\f002'}
+.elfinder-toolbar .elfinder-button-search .ui-icon-close:before{content:'\f00d'}
 .elfinder-toolbar .elfinder-button-menu{
 	background:#fff
 }
@@ -289,84 +257,32 @@
 	text-align:center;
 	cursor:pointer
 }
-.elfinder-button-icon-back:before{
-	content:'\f137'
-}
-.elfinder-button-icon-forward:before{
-	content:'\f138'
-}
-.elfinder-button-icon-netmount:before{
-	content:'\f233'
-}
-.elfinder-button-icon-reload:before{
-	content:'\f021'
-}
-.elfinder-button-icon-home:before{
-    content:'\f015'
-}
-.elfinder-button-icon-up:before{
-    content:'\f148'
-}
-.elfinder-button-icon-mkdir:before{
-    content:'\f114'
-}
-.elfinder-button-icon-mkfile:before{
-    content:'\f016'
-}
-.elfinder-button-icon-upload:before{
-    content:'\f093'
-}
-.elfinder-button-icon-open:before{
-    content:'\f115'
-}
-.elfinder-button-icon-download:before{
-    content:'\f019'
-}
-.elfinder-button-icon-getfile:before{
-    content:'\f0a6'
-}
-.elfinder-button-icon-info:before{
-    content:'\f05a'
-}
-.elfinder-button-icon-quicklook:before{
-    content:'\f06e'
-}
-.elfinder-button-icon-copy:before{
-    content:'\f0c5'
-}
-.elfinder-button-icon-cut:before{
-    content:'\f0c4'
-}
-.elfinder-button-icon-paste:before{
-    content:'\f0ea'
-}
-.elfinder-button-icon-view:before{
-    content:'\f00a'
-}
-.elfinder-button-icon-view-list:before{
-    content:'\f0ca'
-}
-.elfinder-button-icon-help:before{
-    content:'\f059'
-}
-.elfinder-button-icon-help:before{
-    content:'\f059'
-}
-.elfinder-button-icon-duplicate:before{
-    content:'\f24d'
-}
-.elfinder-button-icon-rm:before{
-    content:'\f014'
-}
-.elfinder-button-icon-edit:before{
-    content:'\f044'
-}
-.elfinder-button-icon-rename:before{
-    content:'\f246'
-}
-.elfinder-button-icon-archive:before{
-    content:'\f1c6'
-}
+.elfinder-button-icon-back:before{content:'\f137'}
+.elfinder-button-icon-forward:before{content:'\f138'}
+.elfinder-button-icon-netmount:before{content:'\f233'}
+.elfinder-button-icon-reload:before{content:'\f021'}
+.elfinder-button-icon-home:before{content:'\f015'}
+.elfinder-button-icon-up:before{content:'\f148'}
+.elfinder-button-icon-mkdir:before{content:'\f114'}
+.elfinder-button-icon-mkfile:before{content:'\f016'}
+.elfinder-button-icon-upload:before{content:'\f093'}
+.elfinder-button-icon-open:before{content:'\f115'}
+.elfinder-button-icon-download:before{content:'\f019'}
+.elfinder-button-icon-getfile:before{content:'\f0a6'}
+.elfinder-button-icon-info:before{content:'\f05a'}
+.elfinder-button-icon-quicklook:before{content:'\f06e'}
+.elfinder-button-icon-copy:before{content:'\f0c5'}
+.elfinder-button-icon-cut:before{content:'\f0c4'}
+.elfinder-button-icon-paste:before{content:'\f0ea'}
+.elfinder-button-icon-view:before{content:'\f00a'}
+.elfinder-button-icon-view-list:before{content:'\f0ca'}
+.elfinder-button-icon-help:before{content:'\f059'}
+.elfinder-button-icon-help:before{content:'\f059'}
+.elfinder-button-icon-duplicate:before{content:'\f24d'}
+.elfinder-button-icon-rm:before{content:'\f014'}
+.elfinder-button-icon-edit:before{content:'\f044'}
+.elfinder-button-icon-rename:before{content:'\f246'}
+.elfinder-button-icon-archive:before{content:'\f1c6'}
 .elfinder-button-icon-archive:after{
 	position:absolute;
 	content:'\f067';
@@ -374,15 +290,9 @@
 	right:5px;
 	height:10px
 }
-.elfinder-button-icon-resize:before{
-    content:'\f065'
-}
-.elfinder-button-icon-extract:before{
-    content:'\f1c6'
-}
-.elfinder-button-icon-sort:before{
-  content:'\f0dc'
-}
+.elfinder-button-icon-resize:before{content:'\f065'}
+.elfinder-button-icon-extract:before{content:'\f1c6'}
+.elfinder-button-icon-sort:before{content:'\f0dc'}
 .elfinder-button-menu{
 	background-color:#f00;
 	border:1px solid #b6b6b6;
@@ -400,12 +310,8 @@
 .elfinder-button-menu-item.ui-state-hover{
 	background:#337ab7 none
 }
-.elfinder-button-menu-item-selected.elfinder-menu-item-sort-asc .elfinder-menu-item-sort-dir:before{
-    content:'\f0de'
-}
-.elfinder-button-menu-item-selected.elfinder-menu-item-sort-desc .elfinder-menu-item-sort-dir:before{
-    content:'\f0dd'
-}
+.elfinder-button-menu-item-selected.elfinder-menu-item-sort-asc .elfinder-menu-item-sort-dir:before{content:'\f0de'}
+.elfinder-button-menu-item-selected.elfinder-menu-item-sort-desc .elfinder-menu-item-sort-dir:before{content:'\f0dd'}
 .elfinder .elfinder-navbar{
 	background:#fff
 }
@@ -441,9 +347,7 @@
 	text-align:center;
 	cursor:pointer
 }
-.elfinder .elfinder-navbar-expanded .elfinder-navbar-arrow:before{
-	content:'\f0d7'
-}
+.elfinder .elfinder-navbar-expanded .elfinder-navbar-arrow:before{content:'\f0d7'}
 .elfinder .elfinder-navbar-icon{
 	background-image:none!important;
 	overflow:hidden;
@@ -461,15 +365,9 @@
 	cursor:pointer
 }
 .elfinder .elfinder-navbar-root>.elfinder-navbar-icon:before,
-.elfinder .elfinder-navbar-root.elfinder-navbar-expanded>.elfinder-navbar-icon:before{
-    content:'\f015'
-}
-.elfinder .elfinder-navbar-icon:before{
-    content:'\f07b'
-}
-.elfinder .elfinder-navbar-expanded>.elfinder-navbar-icon:before{
-    content:'\f07c';
-}
+.elfinder .elfinder-navbar-root.elfinder-navbar-expanded>.elfinder-navbar-icon:before{content:'\f015'}
+.elfinder .elfinder-navbar-icon:before{content:'\f07b'}
+.elfinder .elfinder-navbar-expanded>.elfinder-navbar-icon:before{content:'\f07c';}
 .elfinder .ui-resizable-handle.ui-resizable-e{
 	cursor:e-resize
 }
@@ -552,12 +450,8 @@
 	display:block;
 	text-align:center
 }
-.elfinder .elfinder-cwd-wrapper-list tr.ui-state-default td .ui-icon-triangle-1-s:before{
-    content:'\f0d7'
-}
-.elfinder .elfinder-cwd-wrapper-list tr.ui-state-default td .ui-icon-triangle-1-n:before{
-    content:'\f0de'
-}
+.elfinder .elfinder-cwd-wrapper-list tr.ui-state-default td .ui-icon-triangle-1-s:before{content:'\f0d7'}
+.elfinder .elfinder-cwd-wrapper-list tr.ui-state-default td .ui-icon-triangle-1-n:before{content:'\f0de'}
 .elfinder .elfinder-cwd table{
 	padding:0
 }
@@ -606,7 +500,7 @@
 	border:1px solid #b2b2b2;
 	border-bottom-color:#999;
 	border-radius:3px;
-    -webkit-box-shadow:0 0 3px rgba(0,0,0,.15);
+	-webkit-box-shadow:0 0 3px rgba(0,0,0,.15);
 	box-shadow:0 0 3px rgba(0,0,0,.15)
 }
 .elfinder-dialog .ui-dialog-content,
@@ -643,12 +537,8 @@
 	text-align:center;
 	cursor:pointer
 }
-.elfinder-dialog-icon-error:before{
-    content:'\f06a'
-}
-.elfinder-dialog-icon-confirm:before{
-    content:'\f059'
-}
+.elfinder-dialog-icon-error:before{content:'\f06a'}
+.elfinder-dialog-icon-confirm:before{content:'\f059'}
 .ui-dialog-titlebar-close:before{
 	font-family:FontAwesome;
 	content:'\f00d'
@@ -833,6 +723,6 @@
 	padding:5px;
 	margin:0 0 5px 6px
 }
-.elfinder .ui-widget-header .ui-icon {
-    background-image: none;
+.elfinder .ui-widget-header .ui-icon{
+    background-image:none
 }
