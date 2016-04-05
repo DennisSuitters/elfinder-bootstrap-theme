@@ -26,4 +26,4 @@ We recommend using FontAwesome v4.4.0 locally within your application, and comme
 ![elfinder-bootstrap-theme-screenshot](https://github.com/StudioJunkyard/elfinder-bootstrap-theme/blob/master/elfinder-bootstrap-theme.png)
 
 ### TODO:
-- Get Close Icon for modal header to display.
+- Modify Quicklook Dialog
