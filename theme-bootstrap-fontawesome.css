@@ -54,13 +54,13 @@
 	font-size:12px
 }
 .elfinder-cwd-icon{
-	overflow:hidden;
+	overflow:hidden
 }
 .elfinder-cwd-icon:before{
 	font-family:FontAwesome;
 	background:none;
 	display:block;
-	text-align:center;
+	text-align:center
 }
 .elfinder-cwd-icon-application:before{
 	content:'\e975'
@@ -176,8 +176,7 @@
 	cursor:default;
 	float:left;
 	border:none;
-	border-radius:0;
-	background:none
+	border-radius:0
 }
 .elfinder .elfinder-buttonset .elfinder-button:hover,
 .elfinder .elfinder-buttonset .elfinder-button:focus,
@@ -197,13 +196,14 @@
 	box-sizing:border-box
 }
 .elfinder-toolbar .elfinder-button-search .elfinder-button-menu{
+    background:#fff;
 	padding:4px 0 0 4px
 }
 .elfinder-toolbar .elfinder-button-search .elfinder-button-menu .ui-button-text{
 	cursor:pointer
 }
 .elfinder-toolbar .elfinder-button-search .elfinder-button-menu .ui-state-default{
-	background:#eaeaea none
+	background:#eaeaea
 }
 .elfinder-toolbar .elfinder-button-search .elfinder-button-menu .ui-state-hover{
 	background:#d0ebf4 none;
@@ -249,6 +249,26 @@
 .elfinder-toolbar .elfinder-button-search .ui-icon-close:before{
 	content:'\f00d'
 }
+.elfinder-toolbar .elfinder-button-menu{
+	background:#fff
+}
+.elfinder-toolbar .elfinder-button-menu .buttonset{
+	margin-top:5px
+}
+.elfinder-toolbar .elfinder-button-menu .buttonset input{
+	width:12px;
+	height:12px;
+	display:inline-block;
+	margin:2px 2px 0 10px
+}
+.elfinder-toolbar .elfinder-button-menu .buttonset label{
+	display:inline;
+	padding:0 0 4px 5px
+}
+.elfinder-toolbar .elfinder-button-menu .buttonset label:after{
+	content:'\a';
+	white-space:pre
+}
 .elfinder-button-icon,
 .elfinder-menu-item-sort-dir{
 	background:none;
@@ -282,70 +302,70 @@
 	content:'\f021'
 }
 .elfinder-button-icon-home:before{
-  content:'\f015'
+    content:'\f015'
 }
 .elfinder-button-icon-up:before{
-  content:'\f148'
+    content:'\f148'
 }
 .elfinder-button-icon-mkdir:before{
-  content:'\f114'
+    content:'\f114'
 }
 .elfinder-button-icon-mkfile:before{
-  content:'\f016'
+    content:'\f016'
 }
 .elfinder-button-icon-upload:before{
-  content:'\f093'
+    content:'\f093'
 }
 .elfinder-button-icon-open:before{
-  content:'\f115'
+    content:'\f115'
 }
 .elfinder-button-icon-download:before{
-  content:'\f019'
+    content:'\f019'
 }
 .elfinder-button-icon-getfile:before{
-  content:'\f0a6'
+    content:'\f0a6'
 }
 .elfinder-button-icon-info:before{
-  content:'\f05a'
+    content:'\f05a'
 }
 .elfinder-button-icon-quicklook:before{
-  content:'\f06e'
+    content:'\f06e'
 }
 .elfinder-button-icon-copy:before{
-  content:'\f0c5'
+    content:'\f0c5'
 }
 .elfinder-button-icon-cut:before{
-  content:'\f0c4'
+    content:'\f0c4'
 }
 .elfinder-button-icon-paste:before{
-  content:'\f0ea'
+    content:'\f0ea'
 }
 .elfinder-button-icon-view:before{
-  content:'\f00a'
+    content:'\f00a'
 }
 .elfinder-button-icon-view-list:before{
-  content:'\f0ca'
+    content:'\f0ca'
 }
 .elfinder-button-icon-help:before{
-  content:'\f059'
+    content:'\f059'
 }
 .elfinder-button-icon-help:before{
-  content:'\f059'
+    content:'\f059'
 }
 .elfinder-button-icon-duplicate:before{
-  content:'\f24d'
+    content:'\f24d'
 }
 .elfinder-button-icon-rm:before{
-  content:'\f014'
+    content:'\f014'
 }
 .elfinder-button-icon-edit:before{
-  content:'\f044'
+    content:'\f044'
 }
 .elfinder-button-icon-rename:before{
-  content:'\f246'
+    content:'\f246'
 }
 .elfinder-button-icon-archive:before{
-  content:'\f1c6'
+    content:'\f1c6'
 }
 .elfinder-button-icon-archive:after{
 	position:absolute;
@@ -355,10 +375,10 @@
 	height:10px
 }
 .elfinder-button-icon-resize:before{
-  content:'\f065'
+    content:'\f065'
 }
 .elfinder-button-icon-extract:before{
-  content:'\f1c6'
+    content:'\f1c6'
 }
 .elfinder-button-icon-sort:before{
   content:'\f0dc'
@@ -378,13 +398,13 @@
 }
 .elfinder-button-menu-item-selected,
 .elfinder-button-menu-item.ui-state-hover{
-	background:#f2f2f2 none
+	background:#337ab7 none
 }
 .elfinder-button-menu-item-selected.elfinder-menu-item-sort-asc .elfinder-menu-item-sort-dir:before{
-  content:'\f0de'
+    content:'\f0de'
 }
 .elfinder-button-menu-item-selected.elfinder-menu-item-sort-desc .elfinder-menu-item-sort-dir:before{
-  content:'\f0dd'
+    content:'\f0dd'
 }
 .elfinder .elfinder-navbar{
 	background:#fff
@@ -442,13 +462,13 @@
 }
 .elfinder .elfinder-navbar-root>.elfinder-navbar-icon:before,
 .elfinder .elfinder-navbar-root.elfinder-navbar-expanded>.elfinder-navbar-icon:before{
-  content:'\f015'
+    content:'\f015'
 }
 .elfinder .elfinder-navbar-icon:before{
-  content:'\f07b'
+    content:'\f07b'
 }
 .elfinder .elfinder-navbar-expanded>.elfinder-navbar-icon:before{
-  content:'\f07c';
+    content:'\f07c';
 }
 .elfinder .ui-resizable-handle.ui-resizable-e{
 	cursor:e-resize
@@ -484,13 +504,13 @@
 .elfinder .elfinder-cwd-view-icons .elfinder-cwd-file:hover *,
 .elfinder .elfinder-cwd-view-icons .elfinder-cwd-file:active *,
 .elfinder .elfinder-cwd-view-icons .elfinder-cwd-file.ui-selected *{
-	color:#666
+	color:#337ab7
 }
 .elfinder .elfinder-cwd-view-icons .elfinder-cwd-file.ui-selected:hover{
 	background-color:#f4f4f4
 }
 .elfinder .elfinder-cwd-view-icons .elfinder-cwd-file.ui-selected:hover *{
-	color:#b7b7b7
+	color:#337ab7
 }
 .elfinder .elfinder-cwd table thead tr{
 	background:none;
@@ -533,10 +553,10 @@
 	text-align:center
 }
 .elfinder .elfinder-cwd-wrapper-list tr.ui-state-default td .ui-icon-triangle-1-s:before{
-  content:'\f0d7'
+    content:'\f0d7'
 }
 .elfinder .elfinder-cwd-wrapper-list tr.ui-state-default td .ui-icon-triangle-1-n:before{
-  content:'\f0de'
+    content:'\f0de'
 }
 .elfinder .elfinder-cwd table{
 	padding:0
@@ -586,6 +606,7 @@
 	border:1px solid #b2b2b2;
 	border-bottom-color:#999;
 	border-radius:3px;
+    -webkit-box-shadow:0 0 3px rgba(0,0,0,.15);
 	box-shadow:0 0 3px rgba(0,0,0,.15)
 }
 .elfinder-dialog .ui-dialog-content,
@@ -623,10 +644,10 @@
 	cursor:pointer
 }
 .elfinder-dialog-icon-error:before{
-  content:'\f06a'
+    content:'\f06a'
 }
 .elfinder-dialog-icon-confirm:before{
-  content:'\f059'
+    content:'\f059'
 }
 .ui-dialog-titlebar-close:before{
 	font-family:FontAwesome;
