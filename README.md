@@ -6,7 +6,7 @@ This Theme modifies the `theme.css` theme file, and adds LibreICONS Font Icons, 
 Simply download this repo, then:
 
 ### SVG Version
-Copy the `elfinder-bootstrap-svg.css` file and `svg/` folder including files to the elFinder css folder, then add the below link to the stylesheet to your markup after linking in the elFinder css file:
+Copy the `elfinder-bootstrap-svg.css` file and `libre-svg-black.svg/` to the elFinder css folder, then add the below link to the stylesheet to your markup after linking in the elFinder css file:
 ````html
 <link rel="stylesheet" type="text/css" href="elfinder/css/theme-bootstrap-svg.css">
 ````
